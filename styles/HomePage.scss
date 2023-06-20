@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+
+.home-container {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .quote-of-the-day {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    color: #311B92;
+    text-shadow: 1px 1px #E1BEE7;
+  }
+
+  .quote-wrapper {
+    height: 300px;
+    width: 300px;
+    background-color: #D3BFF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+
+    .quote {
+      font-size: 27px;
+    }
+  }
+}
