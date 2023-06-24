@@ -18,7 +18,7 @@ export const categoryTypes: Category[] = [
     },
     {
         id: 'c4',
-        type: 'Positive Mindset',
+        type: 'Positivity',
         unicode: '&#127773;'
     },
 ];
