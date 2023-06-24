@@ -21,6 +21,15 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
+
+      .category-type {
+        text-decoration: none;
+        color: #000;
+
+        &:visited {
+          color: #000;
+        }
+      }
     }
   }
 }
