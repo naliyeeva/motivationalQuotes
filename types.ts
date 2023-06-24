@@ -5,3 +5,9 @@ export interface Quote {
 export interface Props {
     quote: Quote;
 }
+
+export interface Category {
+    id: string,
+    type: string,
+    unicode: string
+}
