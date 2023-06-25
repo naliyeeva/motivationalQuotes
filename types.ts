@@ -9,5 +9,6 @@ export interface Props {
 export interface Category {
     id: string,
     type: string,
-    unicode: string
+    unicode: string,
+    content: string
 }
