@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
     return (
         <>
             <nav className='navbar'>
-                <p className='navbar-text'>Motivational Quotes</p>
+                {/*<p className='navbar-text'>Motivational Quotes</p>*/}
                 <ul className='navbar-items'>
                     <li className='navbar-item'>
                         <Link href='/' className={`page-link ${pathname === '/' ? 'active' : ''}`}>Home</Link>
