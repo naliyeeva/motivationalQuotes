@@ -1,7 +1,9 @@
+import AddQuoteForm from "@/components/AddQuoteForm";
+
 export default function AddQuote() {
     return (
         <>
-            <h1>Add your own quote</h1>
+            <AddQuoteForm />
         </>
     )
 }

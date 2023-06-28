@@ -25,4 +25,10 @@ export const categoryTypes: Category[] = [
         unicode: '&#127773;',
         content: 'Quotes about positivity'
     },
+    {
+        id: 'c5',
+        type: 'My Quotes',
+        unicode: '&#9997;',
+        content: 'Quotes that I added'
+    }
 ];
