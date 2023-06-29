@@ -1,9 +1,9 @@
-import AddQuoteForm from "@/components/AddQuoteForm";
+import AddQuoteTab from "@/components/AddQuoteTab";
 
 export default function AddQuote() {
     return (
         <>
-            <AddQuoteForm />
+            <AddQuoteTab />
         </>
     )
 }

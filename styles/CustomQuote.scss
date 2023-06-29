@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap');
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .left-section {
+
+
+    .custom-options {
+      background-color: #FFF;
+      display: inline-flex;
+      flex-direction: column;
+      padding: 1px 12px;
+      align-items: center;
+      gap: 3px;
+
+      .option-wrapper {
+        display: flex;
+        padding: 12px 8px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+
+        .image {
+
+        }
+      }
+
+      .option-name {
+        color: #4E4E4E;
+        font-size: 14px;
+        font-family: 'Georgia', serif;
+        margin: 0;
+      }
+    }
+  }
+
+  .center-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -50px;
+
+
+    .background {
+      width: 500px;
+      height: 400px;
+      background-image: url('/test-image.jpeg');
+
+
+      .quotation {
+        position: relative;
+        right: -210px;
+        z-index: 2;
+
+        &.start {
+          top: 40px;
+        }
+
+        &.end {
+          top: -30px;
+        }
+      }
+
+      .your-quote-container-extra {
+        display: flex;
+        justify-content: center;
+
+        .your-quote-container {
+          position: relative;
+          z-index: 1;
+          width: 300px;
+          height: 250px;
+          background-color: rgba(255, 255, 255, 0.20);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .your-quote {
+            width: 70%;
+            color: #000;
+            text-align: center;
+            font-size: 32px;
+            font-family: 'Georgia', serif;
+            font-weight: 600;
+          }
+        }
+      }
+
+    }
+  }
+
+  .right-section {
+
+
+    .save-options {
+      background-color: #FFFFFF;
+      display: inline-flex;
+      padding: 8px 16px;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 3px;
+
+      .save-option-wrapper {
+        display: flex;
+        padding: 12px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+
+        .option-name {
+          color: #4E4E4E;
+          font-size: 14px;
+          font-family: 'Georgia', serif;
+          font-weight: 700;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
