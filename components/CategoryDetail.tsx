@@ -1,7 +1,12 @@
 import React from "react";
 
-const CategoryDetail: React.FC = ({chosenCategory}) => {
-    return <h1>{chosenCategory}</h1>
+const CategoryDetail: React.FC = ({quotes}) => {
+    return (
+        <div>{quotes.map((quote) => (
+            // eslint-disable-next-line react/jsx-key
+            <p>{quote.quote}</p>
+        ))}</div>
+    )
 }
 
 export default CategoryDetail;

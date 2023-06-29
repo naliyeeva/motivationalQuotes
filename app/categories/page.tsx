@@ -1,6 +1,7 @@
 import CategoryTypes from "@/components/CategoryTypes";
+import {MongoClient} from "mongodb";
 
-export default function Categories() {
+export default async function Categories() {
     return (
         <CategoryTypes />
     )
