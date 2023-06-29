@@ -18,16 +18,15 @@ const NavBar: React.FC = () => {
                     <li className='navbar-item'>
                         <Link href='/categories' className={`page-link ${pathname === '/categories' ? 'active' : ''}`}>Categories</Link>
                     </li>
-                    <li className='navbar-item'>
-                        <Link href='/favorites' className={`page-link ${pathname === '/favorites' ? 'active' : ''}`}>Favorites</Link>
-                    </li>
+                    {/*<li className='navbar-item'>*/}
+                    {/*    <Link href='/favorites' className={`page-link ${pathname === '/favorites' ? 'active' : ''}`}>Favorites</Link>*/}
+                    {/*</li>*/}
                     <li className='navbar-item'>
                         <Link href='/add-quote' className={`page-link ${pathname === '/add-quote' ? 'active' : ''}`}>Add Quote</Link>
                     </li>
                 </ul>
             </nav>
         </>
-
     )
 }
 
