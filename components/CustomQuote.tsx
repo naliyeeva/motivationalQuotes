@@ -59,7 +59,7 @@ const CustomQuote = () => {
                     />
                 </div>
             </section>
-            
+
             <section className="right-section">
                 <div className="save-options">
                     <div className="save-option-wrapper download">
